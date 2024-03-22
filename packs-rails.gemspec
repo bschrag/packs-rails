@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "railties"
   spec.add_dependency "activesupport"
-  spec.add_dependency "packs"
+  spec.add_dependency "packs", git: 'https://github.com/bschrag/packs.git',ref: '6154be088cbc0b1d71c23a22a42cc88bf50b1b0e'
 
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
